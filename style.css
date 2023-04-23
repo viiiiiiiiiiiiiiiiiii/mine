@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navigation{
+    width: 100%;
+    background-color: rgb(196, 255, 179) ;
+    color: rgb(0, 114, 47);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+.navigation .logo{
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin: 10px 0px;
+    padding-left: 5rem;
+}
+.nav-menu .nav-list{
+    display: flex;
+    padding-right: 3rem;
+}
+.nav-menu .nav-item{
+    list-style: none;
+    padding: 1.5rem 2.5rem;
+}
+.nav-list .nav-item a{
+    text-decoration: none;
+    font-size: 1.8rem;
+    color:rgb(0, 114, 47);
+}
+.nav-menu .nav-item:hover{
+    background-color: rgb(138, 255, 105) ;
+    transition: 0.2s ease;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.section1-container:hover {
+    box-shadow: 5px 5px 15px #000000;
+}
+.section1-container{
+    position: relative;
+    display: flex;
+    padding: 5rem;
+    padding-right: 5rem;
+    transition: 0.5s;
+    margin: 5rem;
+}
+.section1-container .section1-desc{
+    color: #000000;
+    width: auto;
+    padding: 5rem;
+}
+.section1-desc .desc-title {
+    font-size: 6rem;
+}
+.section1-desc .desc-content{
+    font-size: 3.3rem;
+}
+.section2-container:hover {
+    box-shadow: 5px 5px 15px #000000;
+}
+.section2-container{
+    position: relative;
+    display: flex;
+    padding: 5rem;
+    padding-right: 5rem;
+    transition: 0.5s;
+    margin: 5rem;
+}
+.section2-container .section1-desc{
+    color: #000000;
+    width: auto;
+    padding: 5rem;
+}
+.section2-desc .desc-title {
+    font-size: 6rem;
+}
+.section2-desc .desc-content{
+    font-size: 3.3rem;
+}
+.section2-img {
+    float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
